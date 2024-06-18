@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="caixaInput">
+        <form action="">
+            <label for="passwordInput"> Insira os dados da tabela: </label>
+            <input type="text" id="passwordInput " name="texto">
+            <select name="tipo" id="sss">
+                <option value="hop" disabled selected="s">Selecione a coluna que irá inserir o dado</option>
+                <option value="Data">Data</option>
+                <option value="TIpo">Tipo </option>
+                <option value="Descriçao">Descrição</option>
+                <option value="ValorS">Valor</option>
+            </select>
+            <input type="submit" id="sub">
+        </form>
+    </div>
+    
+    <div class =tabela>
+        <table >
+            <thead>
+                <tr>
+                    <th>
+                        Data
+                    </th>
+                    <th>
+                        Tipo
+                    </th>
+                    <th>
+                        Descrição
+                    </th>
+                    <th>
+                        Valor
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>10/10/24</td>
+                    <td>Despesa</td>
+                    <td>Almoço</td>
+                    <td>100,00</td>
+                
+                </tr>
+                <tr>
+                    <td>10/10/24</td>
+                    <td>Receita</td>
+                    <td>Salario</td>
+                    <td>3.500</td>
+                </tr>
+            </tbody>
+        </table>
+    </div> 
+    <style>
+        *{
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        table{
+            width: 50%;
+            border: solid 10px rgb(24, 115, 143);
+            border-radius:  4px;
+        }
+        thead{
+            background-color: rgb(22, 134, 110);
+        }
+        tbody{
+            background-color: rgb(100, 96, 91);
+        }
+        .tabela{
+            background-color: rgb(155, 179, 70);
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            justify-items: center;
+        }
+       #caixaInput{
+        display: flex;
+        position:absolute;
+        align-items: center;
+        justify-content: center;
+        color: rgb(11, 26, 21);
+        left: 200px;
+        top: 400px;
+       }
+      
+
+    </style>
+</body>
+</html>
