@@ -1,1 +1,2 @@
-# ExerciciosAda
+# ExerciciosIniciais
+Exercicios diversos 
